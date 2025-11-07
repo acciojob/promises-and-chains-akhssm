@@ -12,7 +12,7 @@ form.addEventListener("submit", function (e) {
   const age = parseInt(ageInput.value.trim());
 
   if (!name || isNaN(age)) {
-    alert("Please enter valid details.");
+    alert("Please enter valid details");
     return;
   }
 
@@ -23,7 +23,7 @@ form.addEventListener("submit", function (e) {
       } else {
         reject(`Oh sorry ${name}. You aren't old enough.`);
       }
-    }, 4000); 
+    }, 4000);
   });
 
   votingPromise
